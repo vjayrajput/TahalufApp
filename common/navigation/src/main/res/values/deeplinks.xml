@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deep_link_university_detail" translatable="false">universityapp://university/{universityId}</string>
+    <string name="deep_link_university_list" translatable="false">universityapp://list/</string>
+    <string name="argument_university_id" translatable="false">universityId</string>
+</resources>
