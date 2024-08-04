@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_x_tiny"
+    app:cardCornerRadius="@dimen/space_tiny"
+    app:cardElevation="@dimen/elevation_empty"
+    android:elevation="@dimen/elevation_empty">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_medium">
+
+        <TextView
+            android:id="@+id/txt_university_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_18"
+            app:layout_constraintEnd_toStartOf="@+id/icon_next"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="University Name" />
+
+        <TextView
+            android:id="@+id/txt_university_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xx_small"
+            android:textSize="@dimen/sp_14"
+            app:layout_constraintEnd_toStartOf="@+id/icon_next"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_university_name"
+            tools:text="University State" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/icon_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_background"
+            android:elevation="@dimen/elevation_x_small"
+            android:src="@drawable/baseline_navigate_next_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

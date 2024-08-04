@@ -34,3 +34,5 @@ include(":common:general:extensions")
 include(":common:navigation")
 include(":common:network")
 
+include(":features:list")
+include(":features:detail")

@@ -69,6 +69,9 @@ android {
 
 dependencies {
 
+    implementation(project(":features:list"))
+    implementation(project(":features:detail"))
+
     implementation(libs.material)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.multidex)
