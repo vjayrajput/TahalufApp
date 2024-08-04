@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="space_xx_small">4dp</dimen>
+    <dimen name="space_medium">16dp</dimen>
+
+    <dimen name="radius_large">8dp</dimen>
+
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+
+    <dimen name="elevation_medium">4dp</dimen>
+
+</resources>

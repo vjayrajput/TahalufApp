@@ -7,7 +7,7 @@ import androidx.navigation.NavOptions
 
 fun NavController.navigateToDetail(universityId: String) {
     val context = requireNotNull(this.context) { "Context is not available" }
-    val deepLinkUri = context.getString(R.string.deep_link_university_detail).replace(
+    val deepLinkUri = context.getString(R.string.deep_link_detail).replace(
         oldValue = "{${context.getString(R.string.argument_university_id)}}",
         newValue = universityId
     ).toUri()
